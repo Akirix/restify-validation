@@ -20,9 +20,17 @@
 //WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 //OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
 // **************************************************************************
+//
 // ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 // https://github.com/chriso/validator.js/blob/master/lib/isIP.js
 // ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+//
+// ##########################################################################
+// isIP(str [, version]) - check if the string is an IP (version 4 or 6).
+// ##########################################################################
+//
+
+
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
